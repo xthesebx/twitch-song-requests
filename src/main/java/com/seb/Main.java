@@ -9,8 +9,12 @@ import com.github.twitch4j.chat.events.channel.ChannelMessageEvent;
 import com.hawolt.logger.Logger;
 
 import java.io.*;
+import java.util.HashMap;
 
 public class Main {
+
+    HashMap<String, ClientHandler> clients = new HashMap<>();
+
     public static void main(String[] args) {
         new Main();
     }
@@ -40,12 +44,20 @@ public class Main {
                 String songname = e.getMessage().substring(e.getMessage().indexOf(" ") + 1);
                 if (tcpServer.isConnected()) {
                     try {
-                        tcpServer.sendRequest(songname);
+                        clients.get(e.getChannel().getName()).sendRequest(songname);
                     } catch (IOException ex) {
                         Logger.error(ex);
                     }
                 } else {
                     twitchChat.sendMessage(e.getChannel().getName(), "Request not available right now");
+                }
+            } else if (e.getMessage().equals("!song")) {
+                if (tcpServer.isConnected()) {
+                    try {
+                        clients.get(e.getChannel().getName()).sendRequest("song?");
+                    } catch (IOException ex) {
+                        Logger.error(ex);
+                    }
                 }
             }
         });
