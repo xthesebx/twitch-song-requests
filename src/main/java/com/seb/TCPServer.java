@@ -8,7 +8,6 @@ import java.net.Socket;
 public class TCPServer {
 
     private ServerSocket serverSocket;
-    private Socket socket;
     private final Main main;
 
     public TCPServer(Main main) {
@@ -23,11 +22,4 @@ public class TCPServer {
              new ClientHandler(serverSocket.accept(), main).run();
          }
     }
-
-
-
-    public boolean isConnected() {
-        return socket.isConnected();
-    }
-
 }

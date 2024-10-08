@@ -42,7 +42,7 @@ public class Main {
         eventManager.onEvent(ChannelMessageEvent.class, e -> {
             if (e.getMessage().startsWith("!request")) {
                 String songname = e.getMessage().substring(e.getMessage().indexOf(" ") + 1);
-                if (tcpServer.isConnected()) {
+                if (clients.get(e.getChannel().getName()).isConnected()) {
                     try {
                         clients.get(e.getChannel().getName()).sendRequest(songname);
                     } catch (IOException ex) {
@@ -52,7 +52,7 @@ public class Main {
                     twitchChat.sendMessage(e.getChannel().getName(), "Request not available right now");
                 }
             } else if (e.getMessage().equals("!song")) {
-                if (tcpServer.isConnected()) {
+                if (clients.get(e.getChannel().getName()).isConnected()) {
                     try {
                         clients.get(e.getChannel().getName()).sendRequest("song?");
                     } catch (IOException ex) {

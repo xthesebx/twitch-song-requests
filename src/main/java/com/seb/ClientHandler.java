@@ -56,4 +56,8 @@ public class ClientHandler implements Runnable {
     public void sendRequest(String request) throws IOException {
         out.println(request);
     }
+
+    public Boolean isConnected() {
+        return socket.isConnected();
+    }
 }
