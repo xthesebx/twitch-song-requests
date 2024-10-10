@@ -59,6 +59,8 @@ public class Main {
                         Logger.error(ex);
                     }
                 }
+            } else if (e.getMessage().equals("!playlist")) {
+                twitchChat.sendMessage(e.getChannel().getName(), "https://playlist.sebgameservers.de");
             }
         });
     }
