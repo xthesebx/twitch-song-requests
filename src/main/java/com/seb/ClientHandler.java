@@ -18,7 +18,6 @@ public class ClientHandler implements Runnable {
     private final Main main;
 
     ClientHandler(Socket socket, Main main) throws IOException {
-        Logger.error(socket.getInetAddress());
         this.socket = socket;
         in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         out = new PrintWriter(socket.getOutputStream(), true);
