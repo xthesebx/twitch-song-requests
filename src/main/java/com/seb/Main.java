@@ -19,7 +19,6 @@ public class Main {
         new Main();
     }
 
-    PrintWriter out;
     public TwitchChat twitchChat;
     public Main() {
         String original = read(new File("tokens.env"));
@@ -33,11 +32,7 @@ public class Main {
         EventManager eventManager = twitchChat.getEventManager();
         TCPServer tcpServer = new TCPServer(this);
         new Thread(() -> {
-            try {
-                tcpServer.start();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
+            tcpServer.start();
         }).start();
         eventManager.onEvent(ChannelMessageEvent.class, e -> {
             if (e.getMessage().startsWith("!request")) {
@@ -64,8 +59,6 @@ public class Main {
             }
         });
     }
-
-
 
     public static String read (File file) {
         if (!file.exists()) {

@@ -1,5 +1,7 @@
 package com.seb;
 
+import com.hawolt.logger.Logger;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -16,6 +18,7 @@ public class ClientHandler implements Runnable {
     private final Main main;
 
     ClientHandler(Socket socket, Main main) throws IOException {
+        Logger.error(socket.getInetAddress());
         this.socket = socket;
         in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         out = new PrintWriter(socket.getOutputStream(), true);
@@ -41,7 +44,7 @@ public class ClientHandler implements Runnable {
                 }
             }
         } catch (IOException e) {
-
+            e.printStackTrace();
         }
     }
 

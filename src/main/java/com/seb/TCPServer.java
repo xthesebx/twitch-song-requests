@@ -3,7 +3,6 @@ package com.seb;
 
 import java.io.IOException;
 import java.net.ServerSocket;
-import java.net.Socket;
 
 public class TCPServer {
 
@@ -17,9 +16,13 @@ public class TCPServer {
         } catch (IOException ignored) {}
     }
 
-    public void start () throws IOException {
+    public void start () {
          while (true) {
-             new ClientHandler(serverSocket.accept(), main).run();
+             try {
+                 new ClientHandler(serverSocket.accept(), main).run();
+             } catch (IOException e) {
+                 e.printStackTrace();
+             }
          }
     }
 }
