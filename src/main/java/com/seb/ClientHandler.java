@@ -11,13 +11,17 @@ import java.net.SocketException;
 
 public class ClientHandler implements Runnable {
 
-    private final Socket socket;
-    private final BufferedReader in;
-    private final PrintWriter out;
-    private final String channel;
-    private final Main main;
+    private Socket socket;
+    private BufferedReader in;
+    private PrintWriter out;
+    private String channel;
+    private Main main;
 
     ClientHandler(Socket socket, Main main) throws IOException {
+        if (!socket.getInetAddress().isLoopbackAddress()) {
+            socket.close();
+            return;
+        }
         this.socket = socket;
         in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         out = new PrintWriter(socket.getOutputStream(), true);
