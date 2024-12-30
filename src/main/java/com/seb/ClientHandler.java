@@ -1,5 +1,6 @@
 package com.seb;
 
+
 import com.hawolt.logger.Logger;
 
 import java.io.BufferedReader;
@@ -47,7 +48,7 @@ public class ClientHandler implements Runnable {
                 }
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            Logger.error(e);
         }
     }
 

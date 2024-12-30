@@ -7,6 +7,7 @@ import com.github.twitch4j.chat.TwitchChat;
 import com.github.twitch4j.chat.TwitchChatBuilder;
 import com.github.twitch4j.chat.events.channel.ChannelMessageEvent;
 import com.hawolt.logger.Logger;
+import com.seb.io.Reader;
 
 import java.io.*;
 import java.util.HashMap;
@@ -21,7 +22,7 @@ public class Main {
 
     public TwitchChat twitchChat;
     public Main() {
-        String original = read(new File("tokens.env"));
+        String original = Reader.read(new File("tokens.env"));
         String access = original.substring(0, original.indexOf("\n"));
         String refresh = original.substring(original.indexOf("\n") + 1).substring(0, original.indexOf("\n"));
         String clid = original.substring(original.indexOf("\n") + 1).substring(original.indexOf("\n") + 1);
@@ -56,33 +57,9 @@ public class Main {
                 }
             } else if (e.getMessage().equals("!playlist")) {
                 twitchChat.sendMessage(e.getChannel().getName(), "https://playlist.sebgameservers.de");
+            } else if (e.getMessage().equals("!voteskip")) {
+                twitchChat.sendMessage(e.getChannel().getName(), "annoy seb if you want this feature");
             }
         });
-    }
-
-    public static String read (File file) {
-        if (!file.exists()) {
-            try {
-                BufferedWriter writer = new BufferedWriter(new FileWriter(file.getAbsoluteFile()));
-                writer.write("{}");
-                writer.close();
-            } catch (IOException ignored) {
-            }
-        }
-        StringBuilder text = new StringBuilder();
-        try {
-            BufferedReader reader = new BufferedReader(new FileReader(file.getAbsoluteFile()));
-            String temp;
-            temp = reader.readLine();
-            text.append(temp);
-            while (true) {
-                temp = reader.readLine();
-                if (temp == null) break;
-                text.append("\n").append(temp);
-            }
-            reader.close();
-        } catch (IOException ignored) {
-        }
-        return text.toString();
     }
 }
