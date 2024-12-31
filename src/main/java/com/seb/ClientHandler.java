@@ -48,13 +48,13 @@ public class ClientHandler implements Runnable {
                 }
             }
         } catch (IOException e) {
-            Logger.error(e);
+            if (e instanceof SocketException) {
+                return;
+            }
         }
     }
 
     public void stop() throws IOException {
-        in.close();
-        out.close();
         socket.close();
         main.twitchChat.leaveChannel(channel);
         main.clients.remove(channel);
