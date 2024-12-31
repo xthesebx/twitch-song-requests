@@ -48,7 +48,7 @@ public class Main {
                 } else {
                     twitchChat.sendMessage(e.getChannel().getName(), "Request not available right now");
                 }
-            } else if (message.equals("!song")) {
+            } else if (message.startsWith("!song")) {
                 if (clients.get(e.getChannel().getName()).isConnected()) {
                     try {
                         clients.get(e.getChannel().getName()).sendRequest("song?");
