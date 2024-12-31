@@ -29,6 +29,7 @@ public class ClientHandler implements Runnable {
         channel = in.readLine();
         this.main = main;
         main.clients.put(channel, this);
+        Logger.debug("Client connected: " + channel);
     }
 
     @Override
