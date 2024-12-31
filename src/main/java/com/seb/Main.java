@@ -36,8 +36,9 @@ public class Main {
             tcpServer.start();
         }).start();
         eventManager.onEvent(ChannelMessageEvent.class, e -> {
-            if (e.getMessage().startsWith("!request")) {
-                String songname = e.getMessage().substring(e.getMessage().indexOf(" ") + 1);
+            String message = e.getMessage().strip();
+            if (message.startsWith("!request")) {
+                String songname = message.substring(message.indexOf(" ") + 1);
                 if (clients.get(e.getChannel().getName()).isConnected()) {
                     try {
                         clients.get(e.getChannel().getName()).sendRequest(songname);
@@ -47,7 +48,7 @@ public class Main {
                 } else {
                     twitchChat.sendMessage(e.getChannel().getName(), "Request not available right now");
                 }
-            } else if (e.getMessage().equals("!song")) {
+            } else if (message.equals("!song")) {
                 if (clients.get(e.getChannel().getName()).isConnected()) {
                     try {
                         clients.get(e.getChannel().getName()).sendRequest("song?");
@@ -55,9 +56,9 @@ public class Main {
                         Logger.error(ex);
                     }
                 }
-            } else if (e.getMessage().equals("!playlist")) {
+            } else if (message.equals("!playlist")) {
                 twitchChat.sendMessage(e.getChannel().getName(), "https://playlist.sebgameservers.de");
-            } else if (e.getMessage().equals("!voteskip")) {
+            } else if (message.equals("!voteskip")) {
                 twitchChat.sendMessage(e.getChannel().getName(), "annoy seb if you want this feature");
             }
         });
