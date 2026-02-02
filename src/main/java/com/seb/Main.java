@@ -57,7 +57,7 @@ public class Main {
                     }
                 }
             } else if (message.equals("!playlist")) {
-                twitchChat.sendMessage(e.getChannel().getName(), "https://playlist.sebgameservers.de");
+                twitchChat.sendMessage(e.getChannel().getName(), "https://playlist.sebbo.tech");
             } else if (message.equals("!voteskip")) {
                 twitchChat.sendMessage(e.getChannel().getName(), "annoy seb if you want this feature");
             }
