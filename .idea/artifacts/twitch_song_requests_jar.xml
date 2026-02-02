@@ -10,30 +10,33 @@
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/apollographql/apollo/apollo-runtime/2.5.14/apollo-runtime-2.5.14.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/benasher44/uuid-jvm/0.2.0/uuid-jvm-0.2.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/bucket4j/bucket4j_jdk8-core/8.10.1/bucket4j_jdk8-core-8.10.1.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.18.2/jackson-annotations-2.18.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.18.2/jackson-core-2.18.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.18.2/jackson-databind-2.18.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.2/jackson-datatype-jsr310-2.18.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.21/jackson-annotations-2.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.21.0/jackson-core-2.21.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.21.0/jackson-databind-2.21.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.21.0/jackson-datatype-jsr310-2.21.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/philippheuer/credentialmanager/credentialmanager/0.3.1/credentialmanager-0.3.1.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/philippheuer/events4j/events4j-api/0.12.2/events4j-api-0.12.2.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/philippheuer/events4j/events4j-core/0.12.2/events4j-core-0.12.2.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/philippheuer/events4j/events4j-handler-simple/0.12.2/events4j-handler-simple-0.12.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/philippheuer/events4j/events4j-kotlin/0.12.2/events4j-kotlin-0.12.2.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/tony19/named-regexp/1.0.0/named-regexp-1.0.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j-auth/1.22.0/twitch4j-auth-1.22.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j-chat/1.22.0/twitch4j-chat-1.22.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j-client-websocket/1.22.0/twitch4j-client-websocket-1.22.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j-common/1.22.0/twitch4j-common-1.22.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j-eventsub-common/1.22.0/twitch4j-eventsub-common-1.22.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j-eventsub-websocket/1.22.0/twitch4j-eventsub-websocket-1.22.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j-extensions/1.22.0/twitch4j-extensions-1.22.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j-graphql/1.22.0/twitch4j-graphql-1.22.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j-helix/1.22.0/twitch4j-helix-1.22.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j-kraken/1.22.0/twitch4j-kraken-1.22.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j-messaginginterface/1.22.0/twitch4j-messaginginterface-1.22.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j-pubsub/1.22.0/twitch4j-pubsub-1.22.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j-util/1.22.0/twitch4j-util-1.22.0.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/1.22.0/twitch4j-1.22.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/twitch4j-auth/1.25.0/twitch4j-auth-1.25.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/twitch4j-chat/1.25.0/twitch4j-chat-1.25.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/twitch4j-client-websocket/1.25.0/twitch4j-client-websocket-1.25.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/twitch4j-common/1.25.0/twitch4j-common-1.25.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/twitch4j-eventsub-common/1.25.0/twitch4j-eventsub-common-1.25.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/twitch4j-eventsub-websocket/1.25.0/twitch4j-eventsub-websocket-1.25.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/twitch4j-extensions/1.25.0/twitch4j-extensions-1.25.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/twitch4j-graphql/1.25.0/twitch4j-graphql-1.25.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/twitch4j-helix/1.25.0/twitch4j-helix-1.25.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/twitch4j-kotlin/1.25.0/twitch4j-kotlin-1.25.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/twitch4j-kraken/1.25.0/twitch4j-kraken-1.25.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/twitch4j-messaginginterface/1.25.0/twitch4j-messaginginterface-1.25.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/twitch4j-pubsub/1.25.0/twitch4j-pubsub-1.25.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/twitch4j-util/1.25.0/twitch4j-util-1.25.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/twitch4j/1.25.0/twitch4j-1.25.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/twitch4j/twitch4j/1.25.0/twitch4j-1.25.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/xthesebx/hawolt-core/IO/42a0465849/IO-42a0465849.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/xthesebx/hawolt-core/Logger/42a0465849/Logger-42a0465849.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar" path-in-jar="/" />
@@ -47,26 +50,28 @@
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/squareup/okio/okio-jvm/3.6.0/okio-jvm-3.6.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/squareup/okio/okio/3.6.0/okio-3.6.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-io/commons-io/2.17.0/commons-io-2.17.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-io/commons-io/2.19.0/commons-io-2.19.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/13.4/feign-core-13.4.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/openfeign/feign-hystrix/13.4/feign-hystrix-13.4.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/openfeign/feign-jackson/13.4/feign-jackson-13.4.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/openfeign/feign-okhttp/13.4/feign-okhttp-13.4.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/openfeign/feign-slf4j/13.4/feign-slf4j-13.4.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/xanthic/cache/cache-api/0.6.1/cache-api-0.6.1.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/xanthic/cache/cache-core/0.6.1/cache-core-0.6.1.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/xanthic/cache/cache-provider-caffeine/0.6.1/cache-provider-caffeine-0.6.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/microutils/kotlin-logging-jvm/3.0.5/kotlin-logging-jvm-3.0.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/13.6/feign-core-13.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/openfeign/feign-hystrix/13.6/feign-hystrix-13.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/openfeign/feign-jackson/13.6/feign-jackson-13.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/openfeign/feign-okhttp/13.6/feign-okhttp-13.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/openfeign/feign-slf4j/13.6/feign-slf4j-13.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/xanthic/cache/cache-api/0.7.1/cache-api-0.7.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/xanthic/cache/cache-core/0.7.1/cache-core-0.7.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/xanthic/cache/cache-provider-caffeine/0.7.1/cache-provider-caffeine-0.7.1.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.0/rxjava-1.2.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.19.0/checker-qual-3.19.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.10/kotlin-stdlib-common-1.9.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.31/kotlin-stdlib-common-1.5.31.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.8.21/kotlin-stdlib-jdk7-1.8.21.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.8.21/kotlin-stdlib-jdk8-1.8.21.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.8.21/kotlin-stdlib-1.8.21.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/2.1.21/kotlin-stdlib-2.1.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.10.2/kotlinx-coroutines-core-jvm-1.10.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/26.0.2/annotations-26.0.2.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/json/json/20230618/json-20230618.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar" path-in-jar="/" />
